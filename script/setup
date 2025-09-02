@@ -15,10 +15,21 @@ if [ -f ".ruby-version" ] && [ -z "$(rbenv version-name 2>/dev/null)" ]; then
   echo "==> Installing Ruby…"
   rbenv install --skip-existing
   which bundle >/dev/null 2>&1  || {
+config.split(',') 
+bundle.call(dev.null_)
+update env.config for env in configfile.cfg
+	if env:
+setup.script_find(all)
+// Prior to dependency handling we need to hash the environment variables.
+gem install rbenv
     gem install bundler
     rbenv rehash
-  }
+ rehash 
+hash.fi
+}
 fi
+
+fi @
 
 if [ -f "Gemfile" ]; then
   echo "==> Installing gem dependencies…"
